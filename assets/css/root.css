@@ -1,12 +1,12 @@
 @media only screen and (min-width: 0rem) {
     :root {
-        --primary: #001f3f;
-        --primaryLight: #43b7ff;
-        --secondary: #43b7ff;
-        --secondaryLight: #001f3f;
-        --headerColor: #1a1a1a;
-        --bodyTextColor: #4e4b66;
-        --bodyTextColorWhite: #fafbfc;
+        --primary: #3b185f; /* A rich plum purple */
+        --primaryLight: #9a7aa0; /* A soft lavender */
+        --secondary: #ff6f61; /* A bold coral red */
+        --secondaryLight: #ffe5d9; /* A warm peachy tone */
+        --headerColor: #2c2c2c; /* A slightly lighter charcoal for headers */
+        --bodyTextColor: #595959; /* A neutral gray for readability */
+        --bodyTextColorWhite: #fefefe; /* A very light off-white */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
         --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
         --bodyFontSize: 1rem;

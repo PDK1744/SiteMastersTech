@@ -1,4 +1,5 @@
 @media only screen and (min-width: 0rem) {
+    
     #hero-855 {
         padding: clamp(11.25rem, 23.82vw, 18.75rem) 1rem clamp(3.75rem, 7.82vw, 6.25rem);
         background-color: var(--primary);
@@ -72,33 +73,9 @@
         align-items: center;
     }
 
-    #hero-855 .cs-picture {
-        width: 100%;
-        max-width: 37.5rem;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
+    
 
-    #hero-855 .cs-picture img {
-        width: 100%;
-        height: auto;
-    }
-
-    #hero-855 .cs-wave {
-        width: 100%;
-        height: auto;
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        z-index: 1;
-    }
-
-    #hero-855 .cs-wave path {
-        width: 100%;
-        height: auto;
-    }
+   
 
     #hero-855 .mobile {
         bottom: -0.4375rem;

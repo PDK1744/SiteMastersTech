@@ -521,17 +521,18 @@
         justify-content: flex-start;
         align-items: center;
         margin: 0 auto 0 0;
-        height: 100%;
-        max-width: 7.5rem;
+        height: 3rem;
+        max-width: 10.125rem;
         width: auto;
         box-sizing: border-box;
         padding: 0;
     }
 
     #cs-navigation .cs-logo img {
-        height: auto;
+        height: 100%;
         width: 100%;
         object-fit: contain;
+        display: block;
     }
 
     #cs-navigation .cs-logo .cs-default {
@@ -1357,6 +1358,17 @@
 
     #cs-navigation .cs-button-solid {
         display: none;
+    }
+}
+/* Fix for mobile devices */
+@media only screen and (max-width: 768px) {
+    #cs-navigation .cs-logo {
+        max-width: 8rem; /* Smaller on mobile */
+    }
+    
+    #cs-navigation .cs-logo img {
+        width: 100%;
+        height: auto;
     }
 }
 

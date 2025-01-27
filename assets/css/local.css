@@ -59,6 +59,11 @@
         grid-column: span 12;
         grid-row: span 1;
     }
+    
+    .card-icon {
+        color: white;
+        font-size: 40px;
+    }
 
     #services-966 .cs-item:hover .cs-icon-wrapper {
         background-color: var(--primaryLight);

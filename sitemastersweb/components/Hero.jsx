@@ -1,22 +1,40 @@
-'use client'
+"use client";
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-[90vh] flex items-center justify-center bg-black text-white relative overflow-hidden">
-      <div className="max-w-4xl px-6 text-center z-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-400 text-transparent bg-clip-text">
-          Build Bold. Build Retro. Build with SiteMastersWeb.
-        </h1>
-        <p className="text-lg md:text-xl text-gray-300 mb-8">
-          We craft striking, retro-modern websites that grab attention and convert.
-        </p>
-        <button className="px-6 py-3 text-lg font-bold text-black bg-gradient-to-r from-yellow-400 via-pink-500 to-cyan-400 rounded-full shadow-md hover:scale-105 transition-transform duration-200">
-          Get Started
-        </button>
+    <section className="w-full min-h-[110vh] flex items-center justify-center text-white relative overflow-hidden px-6 md:px-12">
+      {/* Glass Container */}
+      <div className="backdrop-blur-sm bg-white/5 border border-white/10 rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.1)] p-12 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+        {/* Text Content */}
+        <div className="flex-1 text-center md:text-left">
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-gradient-to-r from-yellow-400 via-pink-500 to-cyan-400 text-transparent bg-clip-text">
+            Handcrafted Websites That Drive Results.
+          </h1>
+
+          <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-lg mx-auto md:mx-0">
+            Every line of code is written with purpose. At SiteMasters, we build
+            custom, performance-driven websites designed to elevate your brand,
+            engage visitors, and turn clicks into clients.
+          </p>
+
+          <button className="px-8 py-4 text-lg font-bold text-black bg-gradient-to-r from-yellow-400 via-pink-500 to-cyan-400 rounded-full shadow-md hover:scale-105 transition-transform duration-200">
+            Get Started
+          </button>
+        </div>
+
+        {/* Image */}
+        <div className="flex-1 max-w-md">
+          <img
+            src="/images/hero-img.png"
+            alt="Retro computer design"
+            className="w-full rounded-xl shadow-lg"
+            loading="lazy"
+          />
+        </div>
       </div>
 
       {/* Retro Grid Background */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-20 bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] [background-size:24px_24px]"></div>
     </section>
-  )
+  );
 }

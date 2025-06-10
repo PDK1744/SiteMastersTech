@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
 
 :root {
-  
   --font-logo: 'Orbitron', sans-serif;
 }
 
@@ -10,3 +9,24 @@ body {
   @apply bg-[radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)];
 }
 
+@keyframes gradient {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 8s linear infinite;
+}
+
+p {
+  color: #fefefe;           /* Very bright, slightly softened white */
+  line-height: 1.75;
+  font-size: 1.10rem;
+  margin-bottom: 1rem;
+}

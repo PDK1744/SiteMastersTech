@@ -1,5 +1,6 @@
 import CallToAction from "@/components/CallToAction";
-import Link from "next/link";
+
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Placeholder avatar */}
         <div className="flex-shrink-0 w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
-          <img
+          <Image
             src="https://ui-avatars.com/api/?name=Kobe&background=6B21A8&color=fff&size=256"
             alt="Kobe avatar placeholder"
             className="w-full h-full object-cover"

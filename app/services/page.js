@@ -28,7 +28,7 @@ export default function ServicesPage() {
           <p className="text-gray-300 leading-relaxed">
             Stand out with a unique website designed specifically for your brand and audience.
             I build fast, responsive, and accessible sites that leave lasting impressions and
-            drive engagement — whether you're a startup, creative agency, or established business.
+            drive engagement — whether you&apos;re a startup, creative agency, or established business.
           </p>
         </div>
 

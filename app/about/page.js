@@ -13,8 +13,10 @@ export default function About() {
         {/* Placeholder avatar */}
         <div className="flex-shrink-0 w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
           <Image
-            src="https://ui-avatars.com/api/?name=Kobe&background=6B21A8&color=fff&size=256"
-            alt="Kobe avatar placeholder"
+            src="/images/headshot-img.png"
+            alt="Kobe professional headshot"
+            width={192}
+            height={192}
             className="w-full h-full object-cover"
           />
         </div>
@@ -58,7 +60,6 @@ export default function About() {
             experience with a people-first approach and a good dose of
             dedication &mdash; I&#39;d love to connect.
           </p>
-          
         </div>
       </div>
       <CallToAction />
